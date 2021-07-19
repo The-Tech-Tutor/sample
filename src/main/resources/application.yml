@@ -1,0 +1,11 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demo
+    username: techtutor
+    password: password
+  security:
+    user:
+      name: user
+      password: password
